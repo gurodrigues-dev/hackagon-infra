@@ -8,9 +8,9 @@ services:
     hostname: nginx
     restart: always
     ports: [
-        "80":"80",
-        "9632":"9632",
-        "9738":"9738",
+        "80:80",
+        "9632:9632",
+        "9738:9738"
       ]
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
