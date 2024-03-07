@@ -41,7 +41,7 @@ services:
         - ./config/config.yaml:/app/config/config.yaml
 
   cognito:
-      image: ghcr.io/gurodrigues-dev/cognito-hackagon:v1.0.1
+      image: ghcr.io/gurodrigues-dev/cognito-hackagon:v1.0.2
       container_name: cognito_hackagon
       hostname: cognito
       restart: always
