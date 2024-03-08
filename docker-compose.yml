@@ -52,7 +52,7 @@ services:
       ]
 
       volumes:
-        - ./config/.env:/app/config/.env
+        - ./config/.env:/app/.env
 
   cognito:
       image: ghcr.io/gurodrigues-dev/cognito-hackagon:v1.0.2
