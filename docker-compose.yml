@@ -39,6 +39,7 @@ services:
 
       volumes:
         - ./config/config.yaml:/app/config/config.yaml
+        - /root/hackagon-back/database/schema.sql:/app/database/schema.sql
 
   frontend:
       image: ghcr.io/gurodrigues-dev/hackagon-front:v1.0.0
