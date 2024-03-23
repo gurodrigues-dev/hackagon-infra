@@ -9,7 +9,6 @@ services:
     restart: always
     ports: [
         "80:80",
-        "443:443",
         "9632:9632",
         "9738:9738"
       ]
