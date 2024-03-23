@@ -42,7 +42,7 @@ services:
         - /root/hackagon-back/database/schema.sql:/app/database/schema.sql
 
   frontend:
-      image: ghcr.io/gurodrigues-dev/hackagon-front:v1.0.2
+      image: ghcr.io/gurodrigues-dev/hackagon-front:v1.0.1
       container_name: hackagon_frontend
       hostname: hackagon
       networks:
